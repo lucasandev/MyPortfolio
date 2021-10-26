@@ -1,0 +1,180 @@
+
+body{
+    margin: auto;
+}
+
+
+
+.icon{
+    padding:20px;
+}
+
+ul{
+    list-style: none;
+    padding-right: 50px;
+    float:right;
+    align-items: center;
+}
+
+li{
+    padding: 15px;
+    display: inline-block;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 100px;
+    margin:0%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0%;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0%;
+}
+
+#container{
+    text-align: center;
+    margin: auto;
+}
+
+#curriculo{
+    border: white solid 2px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+#curriculo:hover{
+    background-color: rgba(250, 250, 250, 0.5);
+}
+
+a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+
+.container{
+    width: 100%;
+    background-image: url(./image/paisagem.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 800px;
+    margin: auto;
+}
+
+.aboutMe{
+    padding-top: 60px;
+    text-align: center;   
+    width: 600px;
+    margin: auto;
+    font-size: 2rem;
+}
+.tech{
+    padding-top: 60px;
+    text-align: center;   
+    width: 600px;
+    margin: auto;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+
+.social{
+    display: inline-block;
+    border: solid white 2px;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+
+.caixa{
+    display: inline;
+    padding-right: 50px;
+    padding-top: 160px;
+    float: right;
+}
+.a{
+    display: inline-block;
+    padding-right: 10px;
+    margin: right;
+}
+.project{
+    padding-top: 60px;
+    text-align: center; 
+    width: 200px;  
+    margin: auto;
+    font-size: 2rem;
+}
+.containerproject{
+    width: 90%;
+    margin: auto;
+}
+.project1{
+    width: 350px;
+    height: 750px;
+    border-radius: 5px;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
+    padding: 0.5px;
+    box-shadow: 5px 5px 10px rgb(128, 128, 128);
+}
+.sub1{
+    height: 300px;
+    background-image: url(./image/proj1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin: 0%;
+}
+.botaoproject{
+    font-size: 20px;
+    width: 80%;
+    display: block;
+    color:#EC8F6A;
+    border: solid #EC8F6A 1px;
+    padding:10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    font-family: monospace;  
+}
+
+.alingbotao{
+    padding-top: 35px;
+}
+
+.botaoproject:hover{
+    background-color: #EC8F6A;
+}
+
