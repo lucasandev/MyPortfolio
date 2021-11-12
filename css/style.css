@@ -132,7 +132,9 @@ p{
     width: 90%;
     margin: auto;
 }
+
 .project1{
+    display: inline-block;
     width: 350px;
     height: 750px;
     border-radius: 5px;
@@ -140,6 +142,18 @@ p{
     padding: 0.5px;
     box-shadow: 5px 5px 10px rgb(128, 128, 128);
 }
+.project2{
+    display: inline-block;
+    width: 350px;
+    height: 750px;
+    border-radius: 5px;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
+    padding: 0.5px;
+    box-shadow: 5px 5px 10px rgb(128, 128, 128);
+}
+
+
+
 .sub1{
     height: 300px;
     background-image: url(./image/proj1.jpeg);
@@ -149,6 +163,16 @@ p{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.sub2{
+    height: 300px;
+    background-image: url(./image/churrascometro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 p{
     text-align: left;
     font-size: 20px;
