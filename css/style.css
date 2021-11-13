@@ -209,3 +209,100 @@ header{
     top: 0px;
 }
 
+@media screen and (max-width:1000px)  {
+    /* ul{
+        list-style: none;
+        padding-right: 50px;
+        float:right;
+        align-items: center;
+    }
+    
+    li{
+        padding: 15px;
+        display: inline-block;
+    } */
+    
+    /* .project1{
+        display: inline-block;
+        width: 350px;
+        height: 750px;
+        border-radius: 5px;
+        border: solid rgba(128, 128, 128, 0.3) 1px;
+        padding: 0.5px;
+        box-shadow: 5px 5px 10px rgb(128, 128, 128);
+    }
+    .project2{
+        display: inline-block;
+        width: 350px;
+        height: 750px;
+        border-radius: 5px;
+        border: solid rgba(128, 128, 128, 0.3) 1px;
+        padding: 0.5px;
+        box-shadow: 5px 5px 10px rgb(128, 128, 128);
+        margin-left: 50px;
+    } */
+
+    /* .aboutMe{
+        padding-top: 60px;
+        text-align: center;   
+        width: 600px;
+        margin: auto;
+        font-size: 2rem;
+    }
+    .tech{
+        padding-top: 60px;
+        text-align: center;   
+        width: 600px;
+        margin: auto;
+        font-size: 2rem;
+    } */
+
+    .aboutMe{
+        width: 400px;
+    }
+
+    .tech{
+        width: 400px;
+    }
+
+    .project1{
+        display: block;
+        margin: auto;
+    }
+
+    .project2{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    h1{
+        font-size: 60px;
+        padding: 70px;
+    }
+
+    header{
+        position: unset;
+    }
+
+    ul{
+        float: none;
+        margin: auto;
+        padding:0;
+        display: inline-block;
+    }
+    
+    li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .container{
+        width: 400px;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        overflow: hidden;
+        height: 700px;
+        margin: auto;
+    }
+}
