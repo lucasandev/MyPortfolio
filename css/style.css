@@ -298,9 +298,17 @@ header{
     }
     .container{
         width: 400px;
-        background-size: 1300px;
-        background-repeat: no-repeat;
+        background-size:unset;
         height: 700px;
-        margin: auto;
     }
+    /* .container{
+        width: 100%;
+        background-image: url(./image/paisagem.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        overflow: hidden;
+        height: 800px;
+        margin: auto;
+    } */
 }
