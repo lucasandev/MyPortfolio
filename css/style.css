@@ -298,10 +298,8 @@ header{
     }
     .container{
         width: 400px;
-        background-size: 130%;
+        background-size: 1300px;
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        overflow: hidden;
         height: 700px;
         margin: auto;
     }
