@@ -7,17 +7,19 @@ body{
 
 .icon{
     padding:20px;
+    float: left;
 }
 
 ul{
     list-style: none;
-    padding-right: 50px;
-    float:right;
-    align-items: center;
+    margin: 0;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    line-height: 90px;
 }
 
 li{
-    padding: 15px;
     display: inline-block;
 }
 
@@ -65,6 +67,7 @@ h4{
 a{
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    margin-right: 15px;
 }
 a:hover{
     color: white;
@@ -118,7 +121,7 @@ p{
 }
 .a{
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 20px;
     margin: right;
 }
 .project{
@@ -131,9 +134,11 @@ p{
 .containerproject{
     width: 90%;
     margin: auto;
+    height: 750px;
 }
 
 .project1{
+    position: relative;
     display: inline-block;
     width: 350px;
     height: 750px;
@@ -143,14 +148,16 @@ p{
     box-shadow: 5px 5px 10px rgb(128, 128, 128);
 }
 .project2{
-    display: inline-block;
+    position: relative;
+    display:inline-block;
     width: 350px;
     height: 750px;
     border-radius: 5px;
     border: solid rgba(128, 128, 128, 0.3) 1px;
     padding: 0.5px;
     box-shadow: 5px 5px 10px rgb(128, 128, 128);
-    margin-left: 50px;
+    margin-left: 30px;
+    top: 0px;
 }
 
 
@@ -204,9 +211,10 @@ p{
 
 header{
     width: 100%;
-    margin: auto;
-    position: fixed;
     top: 0px;
+    background-color: black;
+    position:-webkit-sticky;
+    position: sticky;
 }
 
 @media screen and (max-width:1000px)  {
