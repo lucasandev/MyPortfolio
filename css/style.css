@@ -141,14 +141,15 @@ a:hover{
     background-color:#F0F0F0;
 }
 
-
-
-.containerproject{
-    width: 90%;
+.containerProject{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     margin: auto;
+    width: 90%;
     height: 100%;
-    display: block;
 }
+
 
 .project{
     display: inline-block;
@@ -158,7 +159,6 @@ a:hover{
     border: solid rgba(128, 128, 128, 0.3) 1px;
     padding: 0.5px;
     box-shadow: 5px 5px 10px rgb(128, 128, 128);
-    margin-right: 40px;
 }
 
 .sub1{
@@ -178,6 +178,20 @@ a:hover{
     background-position: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.sub3{
+    height: 300px;
+    background-image: url(./image/under\ construction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.parte{
+    height: 270px;
 }
 
 p{
@@ -201,7 +215,9 @@ p{
 }
 
 .alingbotao{
-    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .botaoproject:hover{
@@ -358,10 +374,10 @@ header{
         height: 750px;
     } */
 
-    .containerproject{
-        height: auto;
+    /* .containerProject{
         width: 350px;
-    }
+        flex-direction: column;
+    } */
 
     .social{
         transform: translate(80%, -60%)
@@ -385,4 +401,9 @@ header{
         height: 800px;
         margin: auto;
     } */
+
+    .contactBox{
+        width: 350px;
+        margin: auto;
+    }
 }
