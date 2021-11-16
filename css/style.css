@@ -74,15 +74,12 @@ a:hover{
     color: white;
 }
 
-
 .container{
     width: 100%;
     background-image: url(./image/paisagem.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    height: 800px;
+    height: 710px;
     margin: auto;
 }
 
