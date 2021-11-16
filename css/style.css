@@ -206,7 +206,7 @@ p{
 
 header{
     width: 100%;
-    background-color: black;
+    background-color:black;
     position: sticky;
     top: 0px;
     height: 90px;
@@ -260,11 +260,12 @@ header{
         font-size: 2rem;
     } */
     header{
-        width: 100%;
-        background-color: black;
-        position: sticky;
+        width: 400px;
+        background-color: rgb(0, 0, 0,);
+        position:unset;
         top: 0px;
         height: 80px;
+        margin: auto;
     }
 
     a{
@@ -315,7 +316,7 @@ header{
     .container{
         width: 400px;
         background-size:unset;
-        height: 700px;
+        height: 620px;
     }
 
     .icon{
