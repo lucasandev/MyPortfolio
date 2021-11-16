@@ -42,6 +42,13 @@ h2{
     font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h3{
+    font-size: 1.17em;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
 h4{
     text-align: center;
     font-size: 30px;
@@ -98,9 +105,7 @@ a:hover{
     font-size: 2rem;
 }
 
-p{
-    font-size: 1.5rem;
-}
+
 
 
 .social{
@@ -122,20 +127,30 @@ p{
     display: inline-block;
     margin: right;
 }
-.project{
+.projects{
     padding-top: 60px;
     text-align: center; 
     width: 200px;  
     margin: auto;
     font-size: 2rem;
 }
+
+
+
+.rodape{
+    background-color:#F0F0F0;
+}
+
+
+
 .containerproject{
     width: 90%;
     margin: auto;
-    height: 750px;
+    height: 100%;
+    display: block;
 }
 
-.project1{
+.project{
     display: inline-block;
     width: 350px;
     height: 750px;
@@ -143,19 +158,8 @@ p{
     border: solid rgba(128, 128, 128, 0.3) 1px;
     padding: 0.5px;
     box-shadow: 5px 5px 10px rgb(128, 128, 128);
+    margin-right: 40px;
 }
-.project2{
-    display:inline-block;
-    width: 350px;
-    height: 750px;
-    border-radius: 5px;
-    border: solid rgba(128, 128, 128, 0.3) 1px;
-    padding: 0.5px;
-    box-shadow: 5px 5px 10px rgb(128, 128, 128);
-    margin-left: 30px;
-}
-
-
 
 .sub1{
     height: 300px;
@@ -206,11 +210,70 @@ p{
 
 header{
     width: 100%;
-    background-color:black;
-    position: sticky;
+    background-color:rgb(0, 0, 0);
+    position:sticky;
     top: 0px;
     height: 90px;
 }
+
+.contact{
+    padding-top: 60px;
+    text-align: center;   
+    width: 600px;
+    margin: auto;
+    font-size: 2rem;
+}
+.contactBox{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form{
+    padding-bottom:0%;
+    padding-top: 30px;
+    padding-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#botao{
+    border-style: none;
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FFF3EE;
+    color: #EC8F6A;
+    border-radius: 10px;
+}
+#botao:hover{
+    background-color: #FFD8C8;
+}
+
+#firstName{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin:auto;
+}
+#lastName{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin:auto;
+}
+#email{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin:auto;
+}
+#messager{
+    display: block;
+    width: 90%;
+    height: 300px;
+    margin:auto;
+}
+
 
 @media screen and (max-width:1000px)  {
     /* ul{
@@ -259,14 +322,6 @@ header{
         margin: auto;
         font-size: 2rem;
     } */
-    header{
-        width: 400px;
-        background-color: rgb(0, 0, 0,);
-        position:unset;
-        top: 0px;
-        height: 80px;
-        margin: auto;
-    }
 
     a{
         margin: auto;
@@ -281,32 +336,9 @@ header{
         width: 400px;
     }
 
-    .project1{
-        display: block;
-        margin: auto;
-    }
-
-    .project2{
-        display: block;
-        margin: auto;
-        margin-top: 30px;
-    }
-
     h1{
         font-size: 60px;
         padding: 70px;
-    }
-
-    header{
-        position: unset;
-    }
-
-    ul{
-        float: none;
-        margin: auto;
-        padding:0;
-        display: inline-block;
-        margin-left: 10px;
     }
     
     li{
@@ -314,19 +346,35 @@ header{
         margin: auto;
     }
     .container{
-        width: 400px;
-        background-size:unset;
-        height: 620px;
+        width: 100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 500px;
     }
 
-    .icon{
-        padding:5px;
-        margin-top: 10px;
-        float: left;
+    /* .containerproject{
+        width: 90%;
+        margin: auto;
+        height: 750px;
+    } */
+
+    .containerproject{
+        height: auto;
+        width: 350px;
     }
+
     .social{
         transform: translate(80%, -60%)
     }
+
+
+    .project{
+        display: block;
+        margin-top: 40px;
+    }
+
+    
+
     /* .container{
         width: 100%;
         background-image: url(./image/paisagem.jpg);
