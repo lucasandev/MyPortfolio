@@ -10,76 +10,111 @@
 </head>
 
 <body>
-    <div class="containerBody">
-        <nav>
+    <nav>
+        <div class="compac">
             <div class="iconCode">
-                <img src="./css/image/icon.png" width="30px">
+            <img src="./css/image/icon.png" width="30px">
             </div>
             <ul>
-                <li>ABOUT</li>
-                <li>SKILLS</li>
-                <li>PROJECTS</li>
-                <li>CONTACT</li>
+            <li>ABOUT</li>
+            <li>SKILLS</li>
+            <li>PROJECTS</li>
+            <li>CONTACT</li>
             </ul>
-        </nav>
-        <header>
-            <h1>Hello! I'm Lucas</h1>
-            <h2>Front-end Developer</h2>
-            <div class="myResume">
-                <a id="myResume" href="">My Resume</a>
-            </div>
-            <div class="icons">
-                <a class="icon" href="">
-                    <img src="./css/image/linkedin (1).svg" alt="imagem Linkedin" width="20px">
-                </a>
-                <a class="icon" href="">
-                    <img src="./css/image/github.svg" alt="imagem Git hub" width="20px">
-                </a>
-            </div>
-        </header><br><br>
-        <div>
-            <h2 class="aboutMe">About Me
-                <hr>
-            </h2>
-            <p>Hello! I'm a web developer passionate for front-end development and design. I aspire towards a career
-                that will allow me to channel my creativity through creating software and engaging experiences.</p>
-        </div><br><br>
-        <div class="containerTech">
-            <h2 class="tech">Technologies I've worked with
-                <hr>
-            </h2>
-            HTML <br>
-            CSS<br>
-            JavaScript<br><br>
-            <img src="./css/image/html5Icon.svg" alt="ícone html" width="60 em">
-            <img src="./css/image/css3Icon.svg" alt="ícone html" width="60 em">
-            <img src="./css/image/javascriptIcon.svg" alt="ícone html" width="60 em">
         </div>
-        <div class="projectsContainer">
-            <h2 class="tech">Projects
-                <hr>
-            </h2>
-            <div class="cardProjects">
-                <div class="imgProjects"></div>
+    </nav>
+    <header>
+        <h1>Hello! I'm Lucas</h1>
+        <h2>Front-end Developer</h2>
+        <div class="myResume">
+            <a id="myResume" href="">My Resume</a>
+        </div>
+        <div class="icons">
+            <a class="icon" href="">
+                <img src="./css/image/linkedin (1).svg" alt="imagem Linkedin" width="20px">
+            </a>
+            <a class="icon" href="">
+                <img src="./css/image/github.svg" alt="imagem Git hub" width="20px">
+            </a>
+        </div>
+    </header><br><br>
+    <div class="containerAbout">
+        <h2 class="aboutMe">About Me
+            <hr>
+        </h2>
+        <p>Hello! I'm a web developer passionate for front-end development and design. I aspire towards a career
+            that will allow me to channel my creativity through creating software and engaging experiences.</p>
+    </div><br><br>
+    <div class="containerTech">
+        <h2 class="tech">Technologies I've worked with
+            <hr>
+        </h2>
+        HTML <br>
+        CSS<br>
+        JavaScript<br><br>
+        <img src="./css/image/html5Icon.svg" alt="ícone html" width="60 em">
+        <img src="./css/image/css3Icon.svg" alt="ícone html" width="60 em">
+        <img src="./css/image/javascriptIcon.svg" alt="ícone html" width="60 em"><br><br><br><br>
+    </div>
+    <h2 class="tech">Projects
+        <hr>
+    </h2>
+    <div class="projectsContainer">
+        </h2>
+        <div class="cardProjects">
+            <div class="imgProjects"></div>
+            <div class="textCard">
                 <h2 class="tech">My Portfolio</h2>
                 <p>This is my portfolio, which I created to display my projects and works as a front-end developer. It
                     was made to be simple looking and to have a format that's easy to navigate through. The user should
                     be able to look the project cards and see them.</p>
-                <div class="positionButton">
-                    <a class="button" href="" target="blank_">View More</a>
-                </div>
             </div>
-            <div class="cardProjects">
-                <div class="imgProjects2"></div>
+            <div class="positionButton">
+                <a class="button" href="" target="blank_">View More</a>
+            </div>
+        </div>
+        <div class="cardProjects">
+            <div class="imgProjects2"></div>
+            <div class="textCard">
                 <h2 class="tech">Churrascômetro</h2>
                 <p>This is the churrascômetro, an app to estimate the quantities of beer and meat in a barbecue. It is
                     based on the number of people, that can be children or not, and in the length of the barbecue.</p>
-                <div class="positionButton">
-                    <a class="button" href="" target="blank_">View More</a>
-                </div>
+            </div>
+            <div class="positionButton">
+                <a class="button" href="" target="blank_">View More</a>
+            </div>
+        </div>
+        <div class="cardProjects">
+            <div class="imgProjects3"></div>
+            <div class="textCard">
+                <h2 class="tech">Cronômetro</h2>
+                <p>this app will be a simple stopwatch.</p>
+            </div>
+            <div class="positionButton">
+                <a class="button" href="" target="blank_">View More</a>
             </div>
         </div>
     </div>
-</body>
+    <div class="containerContact">
+        <h2 class="tech">Contact
+            <hr>
+        </h2>
+        <img src="./css/image/send.png" width="50px"><br>
+        <div class="pContact">
+            <p>This menu is not working yet.</p>
+        </div>
+        <div class="contact">
+            <p class="padContact">First Name</p>
+            <input type="text" id="name">
+            <p class="padContact">Last Name</p>
+            <input type="text" id="lastName">
+            <p class="padContact">Email</p>
+            <input type="email" id="email">
+            <p class="padContact">Messager</p>
+            <textarea id="messager" rows="10"></textarea>
+            <input id="botao" type="submit">
+        </div>
+    </div>
+    </div>
 
 </html>
