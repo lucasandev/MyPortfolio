@@ -1,210 +1,113 @@
-
 body{
-    margin: auto;
+    width: 400px;
+}
+nav{
+    background-color: black;
 }
 
-
-
-.icon{
-    padding:20px;
+.iconCode{
     float: left;
+    transform: translate(8px, 5px);
+    align-items: center;
 }
 
 ul{
-    list-style: none;
-    margin: 0;
     display: block;
+    color: white;
+    list-style-type: none;
     width: fit-content;
     margin-left: auto;
-    line-height: 90px;
-    padding-right: 20px;
+    line-height: 45px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    margin-top: 0%;
+    
 }
 
 li{
     display: inline-block;
+    padding-left: 10px;
 }
 
+header{
+    background-image: url(./image/paisagem.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+    background-attachment: fixed;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 h1{
-    text-align: center;
     color: white;
-    padding-top: 200px;
-    font-size: 100px;
-    margin:0%;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
+    text-align: center;
+    font-size: 3em;
+    padding-top: 130px;
+}
 h2{
-    text-align: center;
     color: white;
-    font-size: 40px;
-    margin: 0%;
-    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h3{
-    font-size: 1.17em;
-    margin: auto;
-    display: block;
     text-align: center;
 }
-
-h4{
-    text-align: center;
-    font-size: 30px;
-    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 0%;
-}
-
-#container{
+.myResume{
     text-align: center;
     margin: auto;
-}
-
-#curriculo{
-    border: white solid 2px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 5px;
+    margin-top: 30px;
     color: white;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-#curriculo:hover{
-    background-color: rgba(250, 250, 250, 0.5);
-}
-
-a{
-    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    margin-right: 15px;
+    padding: 5px 10px 5px 10px;
 }
-a:hover{
+
+#myResume{
     color: white;
+    text-decoration: none;
+    border: white solid 1px;
+    padding: 5px 10px 5px 10px;
 }
-
-.container{
-    width: 100%;
-    background-image: url(./image/paisagem.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 510px;
-    margin: auto;
+.icons{
+    float: right;
+    margin-right: 10px;
+    margin-top: 140px;
 }
-
+.icon{
+    border-radius: 100%;
+    padding-right: 5px;
+}
 .aboutMe{
-    padding-top: 60px;
-    text-align: center;   
-    width: 600px;
-    margin: auto;
-    font-size: 2rem;
+    color: black;
+}
+p{
+    padding:10px;
 }
 .tech{
-    padding-top: 60px;
-    text-align: center;   
-    width: 600px;
-    margin: auto;
-    font-size: 2rem;
+    color: black;
 }
-
-
-
-
-.social{
-    display: inline-block;
-    border: solid white 2px;
-    border-radius: 40%;
-    padding: 8px;
-    transform: translate(80%, -250%)
+.containerTech{
+    text-align: center;
 }
-
-
-.caixa{
-    display: inline;
-    padding-right: 50px;
-    padding-top: 160px;
-    float: right;
-}
-.a{
-    display: inline-block;
-    margin: right;
-}
-.projects{
-    padding-top: 60px;
-    text-align: center; 
-    width: 200px;  
-    margin: auto;
-    font-size: 2rem;
-}
-
-.compac{
-    max-width: 1238px;
-    margin: auto;
-}
-
-.rodape{
-    background-color:#F0F0F0;
-}
-
-.containerProject{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly start;
-    margin: auto;
-    max-width: 1238px;
-    height: 100%;
-}
-
-
-.project{
-    display: inline-block;
-    width: 350px;
-    height: 750px;
-    border-radius: 5px;
+.cardProjects{
+    width: 300px;
+    height: 550px;
     border: solid rgba(128, 128, 128, 0.3) 1px;
-    margin: 30px;
+    margin:auto;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.4);
 }
 
-.sub1{
-    height: 300px;
+.imgProjects{
     background-image: url(./image/proj1.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
 }
-.sub2{
-    height: 300px;
+.imgProjects2{
     background-image: url(./image/churrascometro.png);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.sub3{
-    height: 300px;
-    background-image: url(./image/under\ construction.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    width: 300px;
+    height: 200px;
 }
-
-.parte{
-    height: 270px;
-}
-
-p{
-    text-align: left;
-    font-size: 20px;
-    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 15px;
-    padding-bottom: 20px;
-    margin: 0%;
-}
-.botaoproject{
+.button{
     font-size: 20px;
     width: 80%;
     display: block;
@@ -215,207 +118,17 @@ p{
     text-align: center;
     border-radius: 5px;
 }
+.button:hover{
+background-color: #EC8F6A;
+color: white;
+}
 
-.alingbotao{
+.positionButton{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content:flex-end;
 }
 
-.botaoproject:hover{
-    background-color: #EC8F6A;
-}
-
-header{
-    width: 100%;
-    background-color:rgb(0, 0, 0);
-    position:sticky;
-    top: 0px;
-    height: 90px;
-}
-
-.contact{
-    padding-top: 60px;
-    text-align: center;   
-    width: 600px;
-    margin: auto;
-    font-size: 2rem;
-}
-.contactBox{
-    background-color: white;
-    border-radius: 10px;
-}
-
-.form{
-    padding-bottom:0%;
-    padding-top: 30px;
-    padding-left: 5%;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-#botao{
-    border-style: none;
-    width: 90%;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: #FFF3EE;
-    color: #EC8F6A;
-    border-radius: 10px;
-}
-#botao:hover{
-    background-color: #FFD8C8;
-}
-
-#firstName{
-    display: block;
-    width: 90%;
-    height: 30px;
-    margin:auto;
-    font-size: 18px;
-    padding:5px;
-    border: solid rgba(128, 128, 128, 0.3) 1px;
-}
-#lastName{
-    display: block;
-    width: 90%;
-    height: 30px;
-    margin:auto;
-    font-size: 18px;
-    padding:5px;
-    border: solid rgba(128, 128, 128, 0.3) 1px;
-}
-#email{
-    display: block;
-    width: 90%;
-    height: 30px;
-    margin:auto;
-    font-size: 18px;
-    padding:5px;
-    border: solid rgba(59, 57, 57, 0.3) 1px;
-}
-#messager{
-    display: block;
-    width: 90%;
-    margin:auto;
-    font-size: 18px;
-    padding:5px;
-    border: solid rgba(128, 128, 128, 0.3) 1px;
-}
-
-
-@media screen and (max-width:1000px)  {
-    /* ul{
-        list-style: none;
-        padding-right: 50px;
-        float:right;
-        align-items: center;
-    }
-    
-    li{
-        padding: 15px;
-        display: inline-block;
-    } */
-    
-    /* .project1{
-        display: inline-block;
-        width: 350px;
-        height: 750px;
-        border-radius: 5px;
-        border: solid rgba(128, 128, 128, 0.3) 1px;
-        padding: 0.5px;
-        box-shadow: 5px 5px 10px rgb(128, 128, 128);
-    }
-    .project2{
-        display: inline-block;
-        width: 350px;
-        height: 750px;
-        border-radius: 5px;
-        border: solid rgba(128, 128, 128, 0.3) 1px;
-        padding: 0.5px;
-        box-shadow: 5px 5px 10px rgb(128, 128, 128);
-        margin-left: 50px;
-    } */
-
-    /* .aboutMe{
-        padding-top: 60px;
-        text-align: center;   
-        width: 600px;
-        margin: auto;
-        font-size: 2rem;
-    }
-    .tech{
-        padding-top: 60px;
-        text-align: center;   
-        width: 600px;
-        margin: auto;
-        font-size: 2rem;
-    } */
-
-    a{
-        margin: auto;
-        margin-left: 5px;
-    }
-
-    .aboutMe{
-        width: 400px;
-    }
-
-    .tech{
-        width: 400px;
-    }
-
-    h1{
-        font-size: 60px;
-        padding: 70px;
-    }
-    
-    li{
-        display: inline-block;
-        margin: auto;
-    }
-    .container{
-        width: 100%;
-        background-size:cover;
-        background-repeat: no-repeat;
-        height: 510px;
-    }
-
-    /* .containerproject{
-        width: 90%;
-        margin: auto;
-        height: 750px;
-    } */
-
-    /* .containerProject{
-        width: 350px;
-        flex-direction: column;
-    } */
-
-    .social{
-        transform: translate(80%, -60%)
-    }
-
-
-    .project{
-        display: block;
-    }
-
-    
-
-    /* .container{
-        width: 100%;
-        background-image: url(./image/paisagem.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        overflow: hidden;
-        height: 800px;
-        margin: auto;
-    } */
-
-    .contactBox{
-        width: 350px;
-        margin: auto;
-    }
+a{
+    text-decoration: none;
 }
