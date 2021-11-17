@@ -236,7 +236,7 @@ textarea{
         top: 0%;
     }
     .compac{
-        width: 1238px;
+        max-width: 1238px;
         margin:auto;
     }
     .contact{
