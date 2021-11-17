@@ -86,7 +86,7 @@ a:hover{
     background-image: url(./image/paisagem.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 710px;
+    height: 510px;
     margin: auto;
 }
 
@@ -113,7 +113,7 @@ a:hover{
     border: solid white 2px;
     border-radius: 40%;
     padding: 8px;
-    transform: translate(80%, 140%)
+    transform: translate(80%, -250%)
 }
 
 
@@ -135,7 +135,10 @@ a:hover{
     font-size: 2rem;
 }
 
-
+.compac{
+    max-width: 1238px;
+    margin: auto;
+}
 
 .rodape{
     background-color:#F0F0F0;
@@ -144,9 +147,9 @@ a:hover{
 .containerProject{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly start;
     margin: auto;
-    width: 90%;
+    max-width: 1238px;
     height: 100%;
 }
 
@@ -157,8 +160,7 @@ a:hover{
     height: 750px;
     border-radius: 5px;
     border: solid rgba(128, 128, 128, 0.3) 1px;
-    padding: 0.5px;
-    box-shadow: 5px 5px 10px rgb(128, 128, 128);
+    margin: 30px;
 }
 
 .sub1{
@@ -270,24 +272,35 @@ header{
     width: 90%;
     height: 30px;
     margin:auto;
+    font-size: 18px;
+    padding:5px;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
 }
 #lastName{
     display: block;
     width: 90%;
     height: 30px;
     margin:auto;
+    font-size: 18px;
+    padding:5px;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
 }
 #email{
     display: block;
     width: 90%;
     height: 30px;
     margin:auto;
+    font-size: 18px;
+    padding:5px;
+    border: solid rgba(59, 57, 57, 0.3) 1px;
 }
 #messager{
     display: block;
     width: 90%;
-    height: 300px;
     margin:auto;
+    font-size: 18px;
+    padding:5px;
+    border: solid rgba(128, 128, 128, 0.3) 1px;
 }
 
 
@@ -365,7 +378,7 @@ header{
         width: 100%;
         background-size:cover;
         background-repeat: no-repeat;
-        height: 500px;
+        height: 510px;
     }
 
     /* .containerproject{
@@ -386,7 +399,6 @@ header{
 
     .project{
         display: block;
-        margin-top: 40px;
     }
 
     
