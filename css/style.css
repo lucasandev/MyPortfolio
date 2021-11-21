@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     max-width: 100%;
     margin: auto;
@@ -93,6 +96,7 @@ p{
     margin:auto;
     margin-top: 30px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.4);
+    float: left;
 }
 .textCard{
     height: 200px;
