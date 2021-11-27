@@ -95,8 +95,8 @@ p{
     width: 300px;
     height: 550px;
     border: solid rgba(128, 128, 128, 0.3) 1px;
-    margin:auto;
-    margin-top: 30px;
+    margin: 30px;
+    text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.4);
     float: left;
 }
@@ -233,13 +233,15 @@ textarea{
         margin:auto;
     }
     .projectsContainer{
-        width: 1238px;
+        justify-content: center;
+        width:fit-content;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: auto;
         height: 100%;
+        margin: auto;
     }
+    
     nav{
         position: sticky;
         top: 0%;
