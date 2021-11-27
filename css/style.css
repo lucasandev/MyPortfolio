@@ -6,7 +6,7 @@ body{
     margin: auto;
 }
 nav{
-    background-color: black;
+    background-color: #333333;
 }
 
 .iconCode{
@@ -31,6 +31,8 @@ ul{
 li{
     display: inline-block;
     padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 header{
@@ -142,7 +144,10 @@ p{
 
 a{
     text-decoration: none;
+    color: white;
 }
+
+
 .containerContact{
     width: auto;
     text-align: center;

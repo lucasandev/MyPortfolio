@@ -13,13 +13,21 @@
     <nav>
         <div class="compac">
             <div class="iconCode">
-            <img src="./css/image/icon.png" width="30px">
+                <img src="./css/image/icon.png" width="30px">
             </div>
             <ul>
-            <li>ABOUT</li>
-            <li>SKILLS</li>
-            <li>PROJECTS</li>
-            <li>CONTACT</li>
+                <a href="#containerAbout">
+                    <li>ABOUT</li>
+                </a>
+                <a href="#containerTech">
+                    <li>SKILLS</li>
+                </a>
+                <a href="#containerProjects">
+                    <li>PROJECTS</li>
+                </a>
+                <a href="#containerContact">
+                    <li>CONTACT</li>
+                </a>
             </ul>
         </div>
     </nav>
@@ -38,14 +46,14 @@
             </a>
         </div>
     </header><br><br>
-    <div class="containerAbout">
+    <div id="containerAbout" class="containerAbout">
         <h2 class="aboutMe">About Me
             <hr>
         </h2>
         <p>Hello! I'm a web developer passionate for front-end development and design. I aspire towards a career
             that will allow me to channel my creativity through creating software and engaging experiences.</p>
     </div><br><br>
-    <div class="containerTech">
+    <div id="containerTech" class="containerTech">
         <h2 class="tech">Technologies I've worked with
             <hr>
         </h2>
@@ -59,7 +67,7 @@
     <h2 class="tech">Projects
         <hr>
     </h2>
-    <div class="projectsContainer">
+    <div id="containerProjects" class="projectsContainer">
         </h2>
         <div class="cardProjects">
             <div class="imgProjects"></div>
@@ -95,7 +103,7 @@
             </div>
         </div>
     </div>
-    <div class="containerContact">
+    <div id="containerContact" class="containerContact">
         <h2 class="tech">Contact
             <hr>
         </h2>
@@ -116,5 +124,33 @@
         </div><br><br><br>
     </div>
     </div>
+    <script>
+
+        var a = document.getElementsByTagName('li')[0]
+
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        a.addEventListener('mousedown', clicar)
+        a.addEventListener('mouseup', soltar)
+
+
+        function entrar() {
+
+            a.style.backgroundColor = 'rgba(255, 255, 255, 0.5)'
+            a.style.color = 'black'
+        }
+        function sair() {
+            a.style.backgroundColor = '#333333'
+            a.style.color = 'white'
+        }
+        function clicar() {
+            a.style.backgroundColor = 'white'
+            a.style.color = 'black'
+        }
+        function soltar() {
+            a.style.backgroundColor = '#333333'
+            a.style.color = 'white'
+        }
+    </script>
 
 </html>
