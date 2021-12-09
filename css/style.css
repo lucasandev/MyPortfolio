@@ -125,6 +125,15 @@ p{
     width: 300px;
     height: 200px;
 }
+
+.imgProjects4{
+    background-image: url(./image/horaDoDia.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+}
+
 .button{
     font-size: 20px;
     width: 80%;
@@ -232,8 +241,14 @@ textarea{
         width: 400px;
         margin:auto;
     }
+
+    .projectsContainerPai{
+        max-width: 1086px;
+        margin: auto;
+    }
+
     .projectsContainer{
-        justify-content: center;
+
         width:fit-content;
         display: flex;
         flex-direction: row;
