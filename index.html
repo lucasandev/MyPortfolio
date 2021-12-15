@@ -33,7 +33,7 @@
     </nav>
     <header>
         <h1>Hello! I'm Lucas</h1>
-        <h2>Front-end Developer</h2>
+        <h2>Full-Stack Developer</h2>
         <div class="myResume">
             <a id="myResume" href="">My Resume</a>
         </div>
@@ -69,7 +69,7 @@
     </h2>
     <div class="projectsContainerPai">
         <div id="containerProjects" class="projectsContainer">
-            <div class="cardProjects">
+            <div class="cardProjects"><!--CRONÔMETRO-->
                 <div class="imgProjects3"></div>
                 <div class="textCard">
                     <h2 class="tech">Cronômetro</h2>
@@ -79,7 +79,7 @@
                     <a class="button" href="" target="blank_">View More</a>
                 </div>
             </div>
-            <div class="cardProjects">
+            <div class="cardProjects"><!--VERIFICADOR DE IDADE-->
                 <div class="imgProjects5"></div>
                 <div class="textCard">
                     <h2 class="tech">Verificador de Idade</h2>
@@ -92,7 +92,7 @@
                         More</a>
                 </div>
             </div>
-            <div class="cardProjects">
+            <div class="cardProjects"><!--HORA DO DIA-->
                 <div class="imgProjects4"></div>
                 <div class="textCard">
                     <h2 class="tech">Hora do Dia!</h2>
@@ -105,7 +105,7 @@
                         More</a>
                 </div>
             </div>
-            <div class="cardProjects">
+            <div class="cardProjects"><!--CHURRASCÔMETRO-->
                 <div class="imgProjects2"></div>
                 <div class="textCard">
                     <h2 class="tech">Churrascômetro</h2>
@@ -115,10 +115,10 @@
                     </p>
                 </div>
                 <div class="positionButton">
-                    <a class="button" href="https://lucasandev.github.io/Churrascometro/" target="blank_">View More</a>
+                    <a class="button" href="https://github.com/lucasandev/Churrascometro" target="blank_">View More</a>
                 </div>
             </div>
-            <div class="cardProjects">
+            <div class="cardProjects"><!--MEU PORTFÓLIO-->
                 <div class="imgProjects"></div>
                 <div class="textCard">
                     <h2 class="tech">My Portfolio</h2>
@@ -155,32 +155,5 @@
         </div><br><br><br>
     </div>
     </div>
-    <script>
-
-        var a = document.getElementsByTagName('li')[0]
-
-        a.addEventListener('mouseenter', entrar)
-        a.addEventListener('mouseout', sair)
-        a.addEventListener('mousedown', clicar)
-        a.addEventListener('mouseup', soltar)
-
-        function entrar() {
-
-            a.style.backgroundColor = 'rgba(255, 255, 255, 0.5)'
-            a.style.color = 'black'
-        }
-        function sair() {
-            a.style.backgroundColor = '#333333'
-            a.style.color = 'white'
-        }
-        function clicar() {
-            a.style.backgroundColor = 'white'
-            a.style.color = 'black'
-        }
-        function soltar() {
-            a.style.backgroundColor = '#333333'
-            a.style.color = 'white'
-        }
-    </script>
-
+    <script src="./script.js"></script>
 </html>
